@@ -2,5 +2,16 @@
 
 ## Book Store
 
-UI/UX 설계 및 주문 기능
-9.26 - > UI/UX 설계
+### API 설계
+
+#### 회원 API
+
+1. 회원 가입
+
+| Method | POST |
+| URI | join |
+| HTTP status code | 성공 201 |
+| Request Body | `{
+email : "사용자가 입력한 이메일",
+password : "사용자가 입력한 비밀번호",
+}` |
