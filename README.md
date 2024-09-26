@@ -8,10 +8,24 @@
 
 1. 회원 가입
 
-| Method | POST |
-| URI | join |
-| HTTP status code | 성공 201 |
-| Request Body | `{
-email : "사용자가 입력한 이메일",
-password : "사용자가 입력한 비밀번호",
-}` |
+| 항목                 | 내용                       |
+| -------------------- | -------------------------- |
+| **Method**           | POST                       |
+| **URI**              | /join                      |
+| **HTTP status code** | 성공 201                   |
+| **Request Body**     |                            |
+| email                | "사용자가 입력한 이메일"   |
+| password             | "사용자가 입력한 비밀번호" |
+| **Response Body**    |                            |
+
+2. 로그인
+
+| 항목                 | 내용                       |
+| -------------------- | -------------------------- |
+| **Method**           | POST                       |
+| **URI**              | /login                     |
+| **HTTP status code** | 성공 200                   |
+| **Request Body**     |                            |
+| email                | "사용자가 입력한 이메일"   |
+| password             | "사용자가 입력한 비밀번호" |
+| **Response Body**    | JWT Token                  |
